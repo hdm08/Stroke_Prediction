@@ -64,4 +64,4 @@ e_type, smoking_status, stroke
     • Recall: 96% - Better identification of stroke cases after resampling.
 
 ## Conclusion
-The initial analysis using a Decision Tree model showed strong accuracy, but failed to correctly identify stroke cases due to the imbalanced nature of the data. After applying SMOTE, both Decision Tree and KNN models showed improvements in recall, with KNN providing the best results in terms of both accuracy and recall, making it a better fit for this problem.
+The initial analysis using a Decision Tree model showed strong accuracy, but failed to correctly identify stroke cases due to the imbalanced nature of the data. After applying SMOTE, both Decision Tree and KNN models showed improvements in recall and precision with KNN providing the best results in terms of both accuracy and recall, making it a better fit for this problem.
